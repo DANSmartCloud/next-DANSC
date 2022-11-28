@@ -24,7 +24,9 @@ var gradientSpeed = 0.002;
 function updateGradient()
 {
   
-  if ( $===undefined ) return;
+  do {
+	if ( $===undefined ) 
+return;
   
 var c0_0 = colors[colorIndices[0]];
 var c0_1 = colors[colorIndices[1]];
@@ -60,5 +62,5 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
     
   }
 }
-
+while (condition);} 
 setInterval(updateGradient,10);
