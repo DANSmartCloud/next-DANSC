@@ -22,6 +22,7 @@ var colorIndices = [0,1,2,3];
 var gradientSpeed = 0.002;
 
 var $
+var condition
 
 function updateGradient()
 {
